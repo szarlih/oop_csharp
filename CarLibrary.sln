@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.645
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{01A12FC4-7FA3-468F-94A6-BA8A1E917D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{01A12FC4-7FA3-468F-94A6-BA8A1E917D1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{C1D4171D-FC30-4C11-BF79-7E9EE703BE70}"
 EndProject
