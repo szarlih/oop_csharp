@@ -3,21 +3,20 @@ namespace TestConsoleApp
 {
     using CarLibrary;
     using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.ReadKey();
-            CarBrand marka = new CarBrand();
+            
+            CarBrand brand = new CarBrand();
 
             CustomCar car = new CustomCar();
             Console.WriteLine(car.Brand);
+            Console.WriteLine("car have {0} {1}-inch wheels with {2} rims", car.WheelsCount, car.WheelsSizeInInch, car.WheelsRimManufacturer);
+            Console.ReadKey();
         }
     }
 }
