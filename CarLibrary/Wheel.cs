@@ -2,7 +2,7 @@
 {
     using System;
 
-    internal class Wheel : IWheel
+    public class Wheel : IWheel, IDisposable
     {
         public ITyre Tyre { get; }
 
@@ -19,6 +19,11 @@
             {
                 throw new ArgumentException("Tyre not fit to rim!");
             }
+        }
+
+        public void Dispose()
+        {
+            Rim.Dispose();
         }
     }
 }

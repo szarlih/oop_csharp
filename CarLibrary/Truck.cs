@@ -2,11 +2,11 @@
 {
     using System.Collections.Generic;
 
-    public class CustomCar : Car
+    public class Truck : Car
     {
-        private const int defaultTyreSize = 16;
+        private const int defaultTyreSize = 22;
 
-        public CustomCar()
+        public Truck()
         {
             Brand = new CarBrand();
             AddStandardPassengerCarWheels();
@@ -16,12 +16,12 @@
         {
             Wheels = new List<IWheel>();
 
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < 6; i++)
             {
                 Wheels.Add(
                     new Wheel(
-                        new Tyre("Nokian", "SuperWinterTyre", 2.4, defaultTyreSize), 
-                        new Rim("Sparko", defaultTyreSize)));
+                        new Tyre("Nokian", "SuperWinterTyre", 3.6, defaultTyreSize),
+                        new Rim("Volvo", defaultTyreSize)));
             }
         }
     }
