@@ -1,10 +1,8 @@
 ﻿namespace CarLibrary
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
 
-    internal class Rim : IRim
+    public class Rim : IRim
     {
         public string Manufacturer { get; }
 
@@ -14,6 +12,10 @@
         {
             SizeInInch = sizeInInch;
             Manufacturer = manufacturer;
+        }
+
+        public void Dispose()
+        {
         }
     }
 }

@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
 
-    interface ICar
+    public interface ICar
     {
         int ProductionYear { get; }
         CarBrand Brand { get; }

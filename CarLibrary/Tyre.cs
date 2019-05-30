@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Text;
 
-    class Tyre : ITyre
+    public class Tyre : ITyre
     {
         public string Manufacturer { get; }
 

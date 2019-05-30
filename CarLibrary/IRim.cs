@@ -1,10 +1,8 @@
 ﻿namespace CarLibrary
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
 
-    public interface IRim
+    public interface IRim: IDisposable
     {
         string Manufacturer { get; }
         int SizeInInch { get; }
